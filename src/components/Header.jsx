@@ -52,7 +52,6 @@ function Header() {
 
           </div>
 
-
           <div className=' relative  '>
             <img src={profile} className='h-[50px] rounded-full' />
           </div>

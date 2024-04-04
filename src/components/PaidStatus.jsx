@@ -16,4 +16,5 @@ function PaidStatus({type}) {
   )
 }
 
+
 export default PaidStatus

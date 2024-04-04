@@ -9,7 +9,6 @@ import formatDate from '../functions/formatDate'
 import DeleteModal from './DeleteModal'
 import CreateInvoice from './CreateInvoice'
 
-
 function InvoiceInfo({ onDelete }) {
     const navigate = useNavigate()
     const location = useLocation()

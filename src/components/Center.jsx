@@ -8,6 +8,7 @@ import invoiceSlice from '../redux/invoiceSlice'
 import CreateInvoice from './CreateInvoice'
 import { useLocation } from 'react-router-dom'
 
+
 function Center() {
     const location = useLocation()
     const controls = useAnimation();
@@ -45,8 +46,6 @@ function Center() {
         open: { opacity: 1, x: -20, duration: 200, transition },
         close: { opacity: 0, x: -100, duration: 500, transition }
     }
-
-
 
     return (
         <div>

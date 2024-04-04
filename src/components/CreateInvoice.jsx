@@ -15,7 +15,6 @@ function CreateInvoice({ openCreateInvoice, setOpenCreateInvoice, invoice, type 
     const [isValidatorActive, setIsValidatorActive] = useState(false)
     const [isValid, setIsValid] = useState(true)
 
-
     const [filterValue, setfilterValue] = useState('')
     const deliveryTimes = [
         { text: 'Next 1 day', value: 1 },
@@ -72,6 +71,7 @@ function CreateInvoice({ openCreateInvoice, setOpenCreateInvoice, invoice, type 
         setItem(data);
     }
 
+    
     const onSubmit = () => {
         if (type === 'edit') {
             dispatch(invoiceSlice.actions.editInvoice({

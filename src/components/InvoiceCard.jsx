@@ -8,7 +8,7 @@ function InvoiceCard({ invoice }) {
         <Link
         to={`invoice?${invoice.id}`}
         >
-            {/* Big Screen  */}
+            {/* Desktop  */}
             <div className=' hidden md:flex cursor-pointer duration-100  ease-in-out  hover:border border-purple-500 py-4 shadow-sm px-6 dark:bg-[#1E2139] bg-white rounded-lg  items-center justify-between'>
                 <div className=' flex items-center '>
                     <h2 className=' dark:text-white '>
@@ -45,7 +45,7 @@ function InvoiceCard({ invoice }) {
 
             </div>
 
-            {/* Phone Screen */}
+            {/* Mobile */}
             <div className=' md:hidden flex cursor-pointer hover:border border-purple-500 py-4 shadow-sm px-6 dark:bg-[#1E2139] bg-white rounded-lg  items-center justify-between'>
 
                 <div className=' flex flex-col'>
