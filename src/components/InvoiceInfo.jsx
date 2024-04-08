@@ -19,7 +19,6 @@ function InvoiceInfo({ onDelete }) {
     const [isEditOpen, setIsEditOpen] = useState(false)
 
 
-
     const invoiceId = location.search.substring(1)
     const onMakePaidClick = () => {
         dispatch(invoiceSlice.actions.updateInvoiceStatus({ id: invoiceId, status: 'paid' }))

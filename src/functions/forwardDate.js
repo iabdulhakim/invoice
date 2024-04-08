@@ -8,7 +8,6 @@ function getForwardDate(numDaysForward) {
     forwardDate.subtract(1, 'months');
   }
 
-  
   return forwardDate.format('YYYY-MM-DD');
 }
 

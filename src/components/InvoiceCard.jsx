@@ -17,7 +17,6 @@ function InvoiceCard({ invoice }) {
                         </span>
                         {invoice.id}
                     </h2>
-
                     <h2 className=' text-sm text-gray-400 font-light ml-6'>
                         Due {invoice.paymentDue}
                     </h2>

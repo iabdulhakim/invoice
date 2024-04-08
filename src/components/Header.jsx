@@ -62,7 +62,6 @@ function Header() {
       <div className=' z-50 hidden lg:block '>
         <div className=' fixed  z-50  w-[100px] rounded-r-3xl  flex-col  top-0 left-0 h-screen dark:bg-[#1E2139]  bg-[#373b53]'>
 
-
           <div className=' h-full w-full flex flex-col justify-between items-center'>
             {/* Logo */}
 

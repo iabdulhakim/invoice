@@ -18,7 +18,7 @@ function AddItem({ itemDetails, setItem, isValidatorActive, onDelete, handelOnCh
 
                     <div className=' flex px-2 py-2  flex-col items-start'>
                         <h1>
-                            Qty.
+                            Qty
                         </h1>
                         <input name='quantity' type='number' onChange={(e) => { handelOnChange(itemDetails.id, e) }} value={itemDetails.quantity} min={0} className={` dark:bg-[#1e2139] py-2 px-4 border-[.2px] rounded-lg  focus:outline-purple-400 max-w-[60px] border-gray-300 focus:outline-none ${isValidatorActive && !validateItemCount(itemDetails.quantity) && 'border-red-500 dark:border-red-500 outline-red-500 border-2'}   dark:border-gray-800`}  />
                     </div>

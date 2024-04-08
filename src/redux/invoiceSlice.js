@@ -6,7 +6,6 @@ import getForwardDate from "../functions/forwardDate";
 import generateID from "../functions/generateId";
 
 const today = moment().format("YYYY-MM-DD");
-
 const invoiceSlice = createSlice({
   name: "invoces",
 

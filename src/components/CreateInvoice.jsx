@@ -70,7 +70,6 @@ function CreateInvoice({ openCreateInvoice, setOpenCreateInvoice, invoice, type 
 
         setItem(data);
     }
-
     
     const onSubmit = () => {
         if (type === 'edit') {

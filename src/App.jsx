@@ -14,7 +14,6 @@ function App() {
   const onDelete = (id) => {
     dispatch(invoiceSlice.actions.deleteInvoice({id : id }))
   }
-
   
   return (
     <div className=' dark:bg-[#141625] duration-300 min-h-screen bg-[#f8f8fb]'>
